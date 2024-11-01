@@ -8,9 +8,6 @@ function getChatGPTResponse($message) {
 	$api_key = $innova_insights_hub_plugin_options_options['api_key_0']; // API Key
 	$api_url = $innova_insights_hub_plugin_options_options['api_endpoint_url_1']; // API endpoint URL
 
-	//$api_url = 'https://api.openai.com/v1/chat/completions';
-	//$api_key = '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';
-
 	// Create an array with the message
 	$data = [
 		'messages' => [
